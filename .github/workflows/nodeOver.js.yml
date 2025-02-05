@@ -28,4 +28,4 @@ jobs:
         cache: 'npm'
     - run: curl -s https://raw.githubusercontent.com/QQyrus/node-cli/master/scripts/install_linux.sh | bash -s v1.0.1
     - run: ls
-    - run:  /tmp/qyrus-cli web --endPoint https://unum-gateway.quinnox.info/ --username qyrustest123@gmail.com --passcode UXVpbm5veDEyMyQ= --teamName "Pega" --projectName Demo Project --suiteName ghub --browserOS Windows --browser Chrome --onErrorContinue true --emailId jorells@qyrus.com
+    - run: /tmp/qyrus-cli web --endPoint https://unum-gateway.quinnox.info/ --username qyrustest123@gmail.com --passcode UXVpbm5veDEyMyQ= --teamName "Pega" --projectName Demo Project --suiteName ghub -- Operating System Windows --browser Chrome --onErrorContinue false --emailId jorells@qyrus.com --Variable Name Global --Parameter File Source NONE 
